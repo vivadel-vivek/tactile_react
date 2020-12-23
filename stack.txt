@@ -1,0 +1,15 @@
+Tactile React is a starter kit for a responsive react project with in depth styling and simple data management.
+
+Create React App
+React
+React-router
+
+Tachyons for CSS in JS 
+http://tachyons.io/docs/
+
+Palx for color scheme
+https://www.npmjs.com/package/palx
+
+Storybook for Component Design
+https://storybook.js.org/docs/react/get-started/setup
+

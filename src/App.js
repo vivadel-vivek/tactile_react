@@ -1,21 +1,21 @@
+import React from "react";
+// Router
+import AppRouter from "router/AppRouter.js";
+// Context
+// import { Provider as AuthProvider } from "context/AmplifyAuthContext";
+import { Provider as ThemeProvider } from "context/ColorThemeContext";
+
+// App is our main app
+// To keep things clean, limit this to importing routers and state management such as context
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      {/* <AuthProvider> */}
+        <ThemeProvider>
+          <AppRouter />
+        </ThemeProvider>
+      {/* </AuthProvider> */}
+    </>
   );
 }
 
